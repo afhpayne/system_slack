@@ -1,0 +1,12 @@
+libdaemon
+avahi
+pipewire
+geoclue2
+gcab
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+libseccomp
+appstream-glib
+ostree
+bubblewrap
+flatpak
