@@ -1,0 +1,4 @@
+ninja
+python3
+meson
+paper-icon-theme
