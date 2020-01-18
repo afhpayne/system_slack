@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
              |-----handy-ruler------------------------------------------------------|
-brave-browser: brave-browser (a safer, faster, and better Web browsing experience)
-brave-browser:
-brave-browser: Brave is a free and open-source web browser developed by Brave
-brave-browser: Software, Inc. based on the Chromium web browser.
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser: https://brave-browser.com
+nvidia-driver: nvidia-driver (Proprietary Binary Nvidia Video Driver)
+nvidia-driver:
+nvidia-driver: This is the proprietary binary video driver from nvidia for
+nvidia-driver: the x.org X server. This package does not include the kernel
+nvidia-driver: module - it is included in the nvidia-kernel package.
+nvidia-driver:
+nvidia-driver: See /usr/doc/nvidia-driver-PKGVERSION/README.Slackware
+nvidia-driver: for more information.
+nvidia-driver:
+nvidia-driver:
+nvidia-driver:

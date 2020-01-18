@@ -6,14 +6,14 @@
 # customary to leave one space after the ':' except on otherwise blank lines.
 
              |-----handy-ruler------------------------------------------------------|
-brave-browser: brave-browser (a safer, faster, and better Web browsing experience)
-brave-browser:
-brave-browser: Brave is a free and open-source web browser developed by Brave
-brave-browser: Software, Inc. based on the Chromium web browser.
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser:
-brave-browser: https://brave-browser.com
+nvidia-kernel: nvidia-kernel (Kernel Interface for the nvidia driver)
+nvidia-kernel:
+nvidia-kernel: This is the kernel module needed by the binary nvidia-driver.
+nvidia-kernel:
+nvidia-kernel:
+nvidia-kernel:
+nvidia-kernel:
+nvidia-kernel:
+nvidia-kernel:
+nvidia-kernel:
+nvidia-kernel:

@@ -1,0 +1,38 @@
+This is the proprietary binary video driver from NVidia for the X.Org
+X-server. This package does not include the kernel-module - it is a part
+of the nvidia-kernel package at SlackBuilds.org.
+
+NOTE: 64-bit x86_64 support ONLY for Slackware64. For x86 32-bit support,
+use nvidia-legacy390-{driver,kernel}
+
+Installing the 32-bit compatibility libraries is available: if desired, do:
+  COMPAT32="yes" ./nvidia-driver.SlackBuild
+  
+If you plan to test this buildscript on current (15.0 EXPERIMENTAL), to
+avoid stomping on the installed libglvnd, do:
+  CURRENT="yes" ./nvidia-driver.SlackBuild
+
+Several useful utilities are included: nvidia-xsettings, nvidia-smi, and
+nvidia-settings.  Please refer to the Nvidia documentation and man pages
+for details and usage.
+
+For CUDA/OpenCL to work after reboot, and for utilites such as nvidia-smi,
+you might need to include the following line in your /etc/rc.d/rc.local:
+-------------8<---------------
+# Create missing nvidia device nodes after reboot
+/usr/bin/nvidia-modprobe -c 0 -u
+------------->8---------------
+
+Notes:
+1.  You still need to blacklist the opensource nouveau driver. This is
+    easily done by installing xf86-video-nouveau-blacklist-noarch-1.txz
+    in extra/xf86-video-nouveau-blacklist on the distibution DVD.
+2.  If nvidia-driver is already installed, there may be extraneous
+    "unable to find installed file..." messages on the console and log.
+    This is benign and due to the nvidia installer not being very smart.
+3.  If you want to revert back to the open source drivers,
+    'removepkg nvidia-driver' "should" work in most cases. If not, simply
+    reinstall the orginal Mesa and xorg-server packages.
+4.  With the deprecation of nvidia-switch, 'upgradepkg nvidia-driver'
+    "should" work in most cases. If not, follow #3 above and then install
+    the new package.
