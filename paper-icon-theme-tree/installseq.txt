@@ -1,4 +1,4 @@
-ninja
-python3
-meson
+ninja [INSTALLED]
+python3 [INSTALLED]
+meson [INSTALLED]
 paper-icon-theme
