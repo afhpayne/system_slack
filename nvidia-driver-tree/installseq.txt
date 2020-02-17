@@ -1,0 +1,3 @@
+Install order:
+nvidia-kernel 440.59
+nvidia-driver 440.59
