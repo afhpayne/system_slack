@@ -1,12 +1,15 @@
-libdaemon
-avahi
-pipewire
-geoclue2
-gcab
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-libseccomp
-appstream-glib
-ostree
-bubblewrap
-flatpak
+Install order:
+meson 0.52.1 --> [INSTALLED] version is meson 0.54.0
+vala 0.34.9 --> [INSTALLED] version is vala 0.48.2
+ninja 1.10.0 --> [INSTALLED] version is ninja 1.10.0
+python3 3.7.2 --> [INSTALLED] version is python3 3.8.2
+json-glib 1.2.8 --> [INSTALLED] version is json-glib 1.4.4
+pipewire 0.2.7 --> [INSTALLED] version is pipewire 0.2.7 (SBo)
+xdg-desktop-portal 1.4.2 --> [INSTALLED] version is xdg-desktop-portal 1.4.2 (SBo)
+gcab 0.6 --> [INSTALLED] version is gcab 0.6 (SBo)
+xdg-desktop-portal-gtk 1.4.0 --> [INSTALLED] version is xdg-desktop-portal-gtk 1.4.0 (SBo)
+libseccomp 2.4.3 --> [INSTALLED] version is libseccomp 2.4.2 (SBo)
+appstream-glib 0.7.15 --> [INSTALLED] version is appstream-glib 0.7.15 (SBo)
+ostree 2019.6 --> [INSTALLED] version is ostree 2019.6 (SBo)
+bubblewrap 0.4.0 --> [INSTALLED] version is bubblewrap 0.4.0 (SBo)
+flatpak 1.6.2 --> [INSTALLED] version is flatpak 1.6.2 (SBo)
