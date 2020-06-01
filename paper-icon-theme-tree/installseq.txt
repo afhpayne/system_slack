@@ -1,4 +1,5 @@
-ninja [INSTALLED]
-python3 [INSTALLED]
-meson [INSTALLED]
-paper-icon-theme
+Install order:
+ninja 1.10.0 --> [INSTALLED] version is ninja 1.10.0
+python3 3.7.2 --> [INSTALLED] version is python3 3.8.3
+meson 0.52.1 --> [INSTALLED] version is meson 0.54.2
+paper-icon-theme 1.5.0 --> [INSTALLED] version is paper-icon-theme 1.5.0 (SBo)
