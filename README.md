@@ -1,2 +1,2 @@
 ### slack_sys_15
-Top level slackbuilds for slack15.  No dependencies.
+Builds for 15. May be out of date...
